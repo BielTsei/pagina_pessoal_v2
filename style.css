@@ -1,26 +1,26 @@
 @font-face {
   font-family: "Inconsolata-Black";
-  src: url(/fonts/Inconsolata-Black.ttf);
+  src: url(./fonts/Inconsolata-Black.ttf);
 }
 
 @font-face {
   font-family: "Inconsolata-Medium";
-  src: url(/fonts/Inconsolata-Medium.ttf);
+  src: url(./fonts/Inconsolata-Medium.ttf);
 }
 
 @font-face {
   font-family: "Inconsolata-Regular";
-  src: url(/fonts/Inconsolata-Regular.ttf);
+  src: url(./fonts/Inconsolata-Regular.ttf);
 }
 
 @font-face {
   font-family: "Silkscreen-Bold";
-  src: url(/fonts/Silkscreen-Bold.ttf);
+  src: url(./fonts/Silkscreen-Bold.ttf);
 }
 
 @font-face {
   font-family: "Silkscreen-Regular";
-  src: url(/fonts/Silkscreen-Regular.ttf);
+  src: url(./fonts/Silkscreen-Regular.ttf);
 }
 
 html {
@@ -240,6 +240,10 @@ body {
 }
 
 @media (max-width: 720px) {
+  body {
+    margin: 30px 8vw;
+  }
+
   .header_logo {
     font-size: 14px;
   }
@@ -253,11 +257,12 @@ body {
   }
 
   .img_1 {
-    width: 45vw;
+    width: 85vw;
+    margin-right: 0px;
   }
 
   .img_2 {
-    width: 45vw;
+    width: 85vw;
   }
 
   .apresentacao p {
