@@ -49,3 +49,7 @@ html {
   border: 20px solid #ffa86a;
   padding: 20px;
 }
+
+.portfolio img {
+  width: 400px;
+}
