@@ -36,13 +36,31 @@ body {
   font-family: "Inconsolata-Medium";
   color: black;
   background-color: #ffa86a;
-  display: inline-block;
+
   text-decoration: none;
   width: 130px;
   height: 35px;
   line-height: 40px;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+.header_logo {
+  display: flex;
+}
+
+.header_logo::after {
+  content: "";
+  width: 100%;
+  height: 35px;
+
+  background: repeating-linear-gradient(
+    90deg,
+    #ffa86a,
+    #ffa86a 2px,
+    transparent 0,
+    transparent 10px
+  );
 }
 
 .navbar a {
@@ -55,10 +73,10 @@ body {
 .navbar {
   margin-bottom: 15px;
   text-align: center;
-  border-top: 1px #525252 solid;
-  border-bottom: 1px #525252 solid;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  border-top: 2px #ffa86a dotted;
+  border-bottom: 2px #ffa86a dotted;
+  padding-top: 7px;
+  padding-bottom: 7px;
 }
 
 .titulo {
@@ -156,7 +174,7 @@ body {
 }
 
 #contato h2 {
-  color: #fa8c3d;
+  color: #ffa86a;
   margin-top: 15px;
 }
 
@@ -202,4 +220,21 @@ body {
 .rodape i {
   font-size: 25px;
   color: #fa8c3d;
+}
+
+.btn_home {
+  background-color: #fa8c3d;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  line-height: 50px;
+  text-align: center;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+}
+
+.btn_home i {
+  color: #fff;
+  font-size: 26px;
 }
