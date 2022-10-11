@@ -49,10 +49,16 @@ body {
   font-family: "Silkscreen-Regular";
   text-decoration: none;
   color: #ffa86a;
+  margin-right: 30px;
 }
 
 .navbar {
   margin-bottom: 15px;
+  text-align: center;
+  border-top: 1px #525252 solid;
+  border-bottom: 1px #525252 solid;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .titulo {
