@@ -82,7 +82,7 @@ body {
 }
 
 .apresentacao {
-  border-bottom: 1px #525252 solid;
+  border-bottom: 3px #ffa86a dotted;
 }
 
 #estudos h2 {
@@ -97,7 +97,9 @@ body {
 }
 
 #estudos {
-  border-bottom: 1px #525252 solid;
+  border-bottom: 3px #ffa86a dotted;
+  margin-top: 5px;
+  border-top: 3px #ffa86a dotted;
 }
 
 .fa-circle {
@@ -107,7 +109,9 @@ body {
 }
 
 #habilidades {
-  border-bottom: 1px #525252 solid;
+  border-bottom: 3px #ffa86a dotted;
+  margin-top: 5px;
+  border-top: 3px #ffa86a dotted;
 }
 
 #habilidades h2 {
@@ -159,7 +163,9 @@ body {
 #contato {
   font-size: 18px;
   color: #fff;
-  border-bottom: 1px #525252 solid;
+  border-bottom: 3px #ffa86a dotted;
+  margin-top: 5px;
+  border-top: 3px #ffa86a dotted;
 }
 
 #contato a {
@@ -184,6 +190,8 @@ body {
   align-items: center;
   justify-content: center;
   align-content: space-around;
+  border-top: 3px #ffa86a dotted;
+  margin-top: 5px;
 }
 
 .rodape p {
