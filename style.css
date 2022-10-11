@@ -25,6 +25,7 @@
 
 html {
   background-color: rgb(34, 33, 41);
+  scroll-behavior: smooth;
 }
 
 body {
