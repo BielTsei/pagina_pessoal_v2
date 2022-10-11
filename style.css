@@ -244,6 +244,10 @@ body {
     margin: 30px 8vw;
   }
 
+  .navbar a {
+    margin-right: 13px;
+  }
+
   .header_logo {
     font-size: 14px;
   }
@@ -252,8 +256,10 @@ body {
     font-size: 26px;
   }
 
-  .img_principal {
-    width: 50vw;
+  .img_principal img {
+    width: 73vw;
+    border: 12px solid #ffa86a;
+    padding: 12px;
   }
 
   .img_1 {
